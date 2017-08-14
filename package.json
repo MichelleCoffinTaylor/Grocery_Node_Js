@@ -1,0 +1,31 @@
+{
+  "name": "grocery_node_js",
+  "version": "1.0.0",
+  "description": "This is a site for a shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleCoffinTaylor/Grocery_Node_Js.git"
+  },
+  "keywords": [
+    "shopping",
+    "grocerys",
+    "app"
+  ],
+  "author": "Michelle Coffin-Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelleCoffinTaylor/Grocery_Node_Js/issues"
+  },
+  "homepage": "https://github.com/MichelleCoffinTaylor/Grocery_Node_Js#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1"
+  }
+}
