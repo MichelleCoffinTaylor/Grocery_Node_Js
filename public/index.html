@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Countdown</title>
+	<title>Online Shopping</title>
 	<link rel="icon" type="icon" href="imgs/logo.jpg">
 	<!-- Link to Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -11,10 +11,7 @@
 <body>
 	<header>
 		<div>
-			<h1>COUNTDOWN</h1>
-		</div>
-		<div id="logoContainer">
-			<img class="logo" src="imgs/logo.jpg">
+			<h1>ONLINE SHOPPING</h1>
 		</div>
 		<nav>
 			<a href="about">ABOUT</a>
@@ -22,9 +19,29 @@
 			<a href="contact">CONTACT</a>
 		</nav>
 	</header>
-	<div id="main">
-		<div id="products"></div>
+	<div class="container">
+		<form id="form" method="GET" action="/">
+			<input id="search" type="text" class="form-control" placeholder="Search Products...">
+			<label for="stock">Stock</label>
+			<input class="searchStock" type="radio" value="all" class="form-control">
+			<input class="searchStock" type="radio" value="In Stock" class="form-control">
+			<input class="searchStock" type="radio" value="Out of Stock" class="form-control">
+			<label for="price">Filter Price</label>
+			<input id="searchPrice" type="range" class="form-control" min="" max="">
+			<button type="submit" class="btn btnPrimary">Search</button>
+		</form>
 	</div>
+	<table>
+		<tr>
+			<td>Product</td>
+		</tr>
+		<tr>
+			<td>Price</td>
+		</tr>
+		<tr>
+			<td>In Stock</td>
+		</tr>
+	</table>
 	<!-- Link to jQuery -->
 	<script type="text/javascript" src="scripts/jquery.min.js"></script>
 	<!-- Link to Bootstrap JavaScript -->
